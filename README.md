@@ -78,6 +78,12 @@ Especificaciones de las Bombas y Electroválvulas
 - Los fertilizantes y su uso. (FAO,ifa)
 - Manual de normas técnicas colombianas para sistemas de riego y drenaje adoptado en la res. 00132 de 2021 del ministerio de agricultura.
 
+
+<p align="center">
+<img src="https://app.image-maps.com/m/private/0/ntkjrgsnn01m00n2l80h104up8_diagrama-flujo-diagrama-general.drawio.png" width="600">
+</p>
+
+
 ## Pruebas
 
 ## Referencias
