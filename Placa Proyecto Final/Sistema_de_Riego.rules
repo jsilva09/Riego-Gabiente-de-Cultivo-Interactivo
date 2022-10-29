@@ -1,0 +1,118 @@
+
+(rules PCB Sistema_de_Riego
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 327)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 500.0)
+    (clear 200.2)
+    (clear 250.0 (type smd_to_turn_gap))
+    (clear 500.2 (type default_Potencia))
+    (clear 50.0 (type smd_smd))
+    (clear 500.2 (type smd_Potencia))
+    (clear 500.2 (type "kicad_default"_Potencia))
+    (clear 500.2 (type Aliment_Potencia))
+    (clear 500.2 (type Potencia_Potencia))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Aliment" "Via[0-1]_800:400_um" Aliment
+  )
+  (via 
+    "Via[0-1]_800:400_um-Potencia" "Via[0-1]_800:400_um" Potencia
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Aliment "Via[0-1]_800:400_um-Aliment"
+  )
+  (via_rule
+    Potencia "Via[0-1]_800:400_um-Potencia"
+  )
+  (class default
+    "Net-(D5-Pad2)" "Net-(DL1-Pad1)" "Net-(DL2-Pad1)" "Net-(DL3-Pad1)" "Net-(DL4-Pad1)" "Net-(DL1-Pad2)" "unconnected-(K1-PadNC)" "unconnected-(K2-PadNC)"
+    "unconnected-(K3-PadNC)" "unconnected-(K4-PadNC)" "unconnected-(K5-PadNC)" "Net-(Q1-Pad2)" "Net-(Q2-Pad2)" "Net-(Q3-Pad2)" "Net-(Q4-Pad2)" "Net-(Q5-Pad2)"
+    "/Potencia_ElectroV/Ev_2" "/Potencia_ElectroV/Ev_1" "/Potencia_Bomba/Cb_1" "/Potencia_Bomba/Cb_2" "/Potencia_Bomba/Cb_3" "unconnected-(J45-Pad7)" "unconnected-(J45-Pad8)" "Net-(Jent2-Pad2)"
+    "Net-(Jjack1-Pad2)" "Net-(DL2-Pad2)" "Net-(DL3-Pad2)" "Net-(DL4-Pad2)" "Net-(DL5-Pad2)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Aliment
+    "/Potencia_Bomba/VCC_5"
+    (clearance_class Aliment)
+    (via_rule Aliment)
+    (rule
+      (width 1400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Potencia
+    "/Potencia_Bomba/Activ_bomba_1" "/Potencia_Bomba/Activ_bomba_2" "/Potencia_Bomba/Activ_bomba_3" "/Potencia_ElectroV/Activ_EV_1" "/Potencia_ElectroV/Activ_EV_2" "/Potencia_ElectroV/VCC_12" GND
+    (clearance_class Potencia)
+    (via_rule Potencia)
+    (rule
+      (width 690.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
