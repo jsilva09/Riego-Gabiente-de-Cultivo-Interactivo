@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Juli Silva\Documents\Universidad\OCTAVO SEMESTRE 2022-2\Diseño de Sistemas Electrónicos\Placa Proyecto Final\Riego_potencia.kicad_sch</source>
+    <date>7/11/2022 5:39:28 p. m.</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Riego_potencia.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ElectroV_Potencia.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Potencia_bomba.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>725a6a79-1456-45e0-bf44-ef35a47723d2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de9de807-7d9f-47da-9c53-d0bd21829383</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bccd7a8a-c1c1-4e7a-b237-0005ecc62274</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c209d2e-a0f3-4120-9712-05a10b60fd07</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>337ffedf-3952-4093-a613-3c77b82ff3fe</tstamps>
+    </comp>
+    <comp ref="J45">
+      <value>RJ45</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2df5c5a6-5530-45d6-bae0-44b2b822eeae</tstamps>
+    </comp>
+    <comp ref="Jent1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa2d7d8a-e7e4-403c-9354-8e06198609b8</tstamps>
+    </comp>
+    <comp ref="Jent2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efc1f42f-9846-4add-ba3a-efb277099f19</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>5mH</value>
+      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>730ec439-97d0-48b9-9e0c-7f5f07306cdf</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>5mH</value>
+      <footprint>Inductor_SMD:L_6.3x6.3_H3</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Archivo: Riego_potencia.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ded3ba6b-31f0-4640-841a-9b1d6be44f03</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>690085ef-8fb2-4746-a24e-03b142dcaa7a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>9de12b67-73d3-4576-a7cd-9f0b21ae65d7</tstamps>
+    </comp>
+    <comp ref="DL4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>d95a67c7-595d-4a9b-b40a-c5502d85413f</tstamps>
+    </comp>
+    <comp ref="DL5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>1a681f8f-243f-42c3-9786-5238196713d1</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>JQC-3F-1C-24VDC</value>
+      <footprint>JQC-3F-1C:RELAY_JQC-3F-1C-24VDC</footprint>
+      <fields>
+        <field name="MANUFACTURER">YUEQING HENGWEI ELECTRONICS CO.,LTD.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="JQC-3F-1C-24VDC" part="JQC-3F-1C-24VDC" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5 mm"/>
+      <property name="MANUFACTURER" value="YUEQING HENGWEI ELECTRONICS CO.,LTD."/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>966a4d5f-60bd-4778-bbed-af3c93f73280</tstamps>
+    </comp>
+    <comp ref="K5">
+      <value>JQC-3F-1C-24VDC</value>
+      <footprint>JQC-3F-1C:RELAY_JQC-3F-1C-24VDC</footprint>
+      <fields>
+        <field name="MANUFACTURER">YUEQING HENGWEI ELECTRONICS CO.,LTD.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="JQC-3F-1C-24VDC" part="JQC-3F-1C-24VDC" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5 mm"/>
+      <property name="MANUFACTURER" value="YUEQING HENGWEI ELECTRONICS CO.,LTD."/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>d3d0f4db-dd41-496c-87e6-e6efdf6f0026</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>d3565b28-cb6e-4231-bf7f-c5052e9a24bf</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>81718446-2b43-46e9-a3e6-6c1a59760920</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>c440fd8a-ccb9-4cc6-9f6c-5d93d397fc68</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>6133d972-5a60-44bb-92ba-7f464a18ea59</tstamps>
+    </comp>
+    <comp ref="RL4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>067aa997-ba53-40ba-8dcb-b897b4365f45</tstamps>
+    </comp>
+    <comp ref="RL5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_ElectroV"/>
+      <property name="Sheetfile" value="Archivo: ElectroV_Potencia.kicad_sch"/>
+      <sheetpath names="/Potencia_ElectroV/" tstamps="/e9c1cb65-2c15-4706-87e2-cfc008b7ef5b/"/>
+      <tstamps>2a42b67a-aac8-4c7f-8a10-18a05f98745a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>55d620b7-a9d9-4e1b-943b-c8f70cf9781f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>17526b48-3905-4a48-a0df-af4ac1787d09</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4004</value>
+      <footprint>Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>e33b93ee-0f2b-4623-a01d-aa84f35427df</tstamps>
+    </comp>
+    <comp ref="DL1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>f5b4b31e-ec87-4057-93de-63fda9e2a100</tstamps>
+    </comp>
+    <comp ref="DL2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>ee48b4ff-71b8-4b0b-bb01-934d67710b41</tstamps>
+    </comp>
+    <comp ref="DL3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>337f5dc4-bcaa-47e7-b177-f4bc2d1b492f</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>JQC-3F-1C-24VDC</value>
+      <footprint>JQC-3F-1C:RELAY_JQC-3F-1C-24VDC</footprint>
+      <fields>
+        <field name="MANUFACTURER">YUEQING HENGWEI ELECTRONICS CO.,LTD.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="JQC-3F-1C-24VDC" part="JQC-3F-1C-24VDC" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5 mm"/>
+      <property name="MANUFACTURER" value="YUEQING HENGWEI ELECTRONICS CO.,LTD."/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>4808e805-33eb-4357-8463-60d69ebef720</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>JQC-3F-1C-24VDC</value>
+      <footprint>JQC-3F-1C:RELAY_JQC-3F-1C-24VDC</footprint>
+      <fields>
+        <field name="MANUFACTURER">YUEQING HENGWEI ELECTRONICS CO.,LTD.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="JQC-3F-1C-24VDC" part="JQC-3F-1C-24VDC" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5 mm"/>
+      <property name="MANUFACTURER" value="YUEQING HENGWEI ELECTRONICS CO.,LTD."/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>c1559683-9230-4dd1-9355-d9d5f33f1f14</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>JQC-3F-1C-24VDC</value>
+      <footprint>JQC-3F-1C:RELAY_JQC-3F-1C-24VDC</footprint>
+      <fields>
+        <field name="MANUFACTURER">YUEQING HENGWEI ELECTRONICS CO.,LTD.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="JQC-3F-1C-24VDC" part="JQC-3F-1C-24VDC" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5 mm"/>
+      <property name="MANUFACTURER" value="YUEQING HENGWEI ELECTRONICS CO.,LTD."/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>e7ea46ad-826a-43c9-bfa0-9c6b872635b7</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>2426fde5-4fa0-4ea1-8933-fb2ed87411a9</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>1e1eb9dc-e146-4f76-b674-92c6bb66edc1</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>ed6037d5-0c9e-42c0-a977-ccdb448cdf51</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>2462678e-cd84-41f6-838b-8102ae070a99</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>5e125ce8-c45f-4a82-8920-c8ecfaff2a75</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>4dc7a954-961f-4a4b-9fe0-1602a47dbd63</tstamps>
+    </comp>
+    <comp ref="RL1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>e77f4e87-e31c-46e1-8b62-a3d8ae71151e</tstamps>
+    </comp>
+    <comp ref="RL2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>eeec9024-1a59-4ea3-ba5b-0cff8f26438b</tstamps>
+    </comp>
+    <comp ref="RL3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Potencia_Bomba"/>
+      <property name="Sheetfile" value="Archivo: Potencia_bomba.kicad_sch"/>
+      <sheetpath names="/Potencia_Bomba/" tstamps="/69d325c7-1f68-4264-b24f-9bf9d26aa601/"/>
+      <tstamps>eb2e5199-039e-4e88-ada0-29d1b59b34fb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="RJ45">
+      <description>RJ connector, 8P8C (8 positions 8 connected)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JQC-3F-1C-24VDC" part="JQC-3F-1C-24VDC">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">JQC-3F-1C-24VDC</field>
+        <field name="Footprint">RELAY_JQC-3F-1C-24VDC</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5 mm</field>
+        <field name="MANUFACTURER">YUEQING HENGWEI ELECTRONICS CO.,LTD.</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="COIL1" name="" type="passive"/>
+        <pin num="COIL2" name="" type="passive"/>
+        <pin num="COM" name="" type="passive"/>
+        <pin num="NC" name="" type="passive"/>
+        <pin num="NO" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N2219">
+      <description>800mA Ic, 50V Vce, NPN Transistor, TO-39</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</docs>
+      <footprints>
+        <fp>TO?39*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-39-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="JQC-3F-1C-24VDC">
+      <uri>C:/Users/Juli Silva/Documents/Universidad/OCTAVO SEMESTRE 2022-2/Diseño de Sistemas Electrónicos/diseño/JQC-3F-1C-24VDC.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Potencia_Bomba/Activ_bomba_1">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="NO" pintype="passive"/>
+    </net>
+    <net code="2" name="/Potencia_Bomba/Activ_bomba_2">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K2" pin="NO" pintype="passive"/>
+    </net>
+    <net code="3" name="/Potencia_Bomba/Activ_bomba_3">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K3" pin="NO" pintype="passive"/>
+    </net>
+    <net code="4" name="/Potencia_Bomba/Cb_1">
+      <node ref="J45" pin="4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/Potencia_Bomba/Cb_2">
+      <node ref="J45" pin="5" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Potencia_Bomba/Cb_3">
+      <node ref="J45" pin="6" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Potencia_Bomba/VCC_5">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="COIL1" pintype="passive"/>
+      <node ref="K1" pin="COM" pintype="passive"/>
+      <node ref="K2" pin="COIL1" pintype="passive"/>
+      <node ref="K2" pin="COM" pintype="passive"/>
+      <node ref="K3" pin="COIL1" pintype="passive"/>
+      <node ref="K3" pin="COM" pintype="passive"/>
+      <node ref="K4" pin="COIL1" pintype="passive"/>
+      <node ref="K5" pin="COIL1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="RL1" pin="1" pintype="passive"/>
+      <node ref="RL2" pin="1" pintype="passive"/>
+      <node ref="RL3" pin="1" pintype="passive"/>
+      <node ref="RL4" pin="1" pintype="passive"/>
+      <node ref="RL5" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Potencia_ElectroV/Activ_EV_1">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K4" pin="NO" pintype="passive"/>
+    </net>
+    <net code="9" name="/Potencia_ElectroV/Activ_EV_2">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K5" pin="NO" pintype="passive"/>
+    </net>
+    <net code="10" name="/Potencia_ElectroV/Ev_1">
+      <node ref="J45" pin="3" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Potencia_ElectroV/Ev_2">
+      <node ref="J45" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/Potencia_ElectroV/VCC_12">
+      <node ref="K4" pin="COM" pintype="passive"/>
+      <node ref="K5" pin="COM" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J45" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Jent1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Jent2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DL1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="COIL2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DL2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K2" pin="COIL2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DL3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K3" pin="COIL2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DL4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K4" pin="COIL2" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DL5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K5" pin="COIL2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(DL1-Pad2)">
+      <node ref="DL1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RL1" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(DL2-Pad2)">
+      <node ref="DL2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RL2" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(DL3-Pad2)">
+      <node ref="DL3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RL3" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(DL4-Pad2)">
+      <node ref="DL4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RL4" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(DL5-Pad2)">
+      <node ref="DL5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RL5" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Jent1-Pad1)">
+      <node ref="Jent1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(Jent2-Pad2)">
+      <node ref="Jent2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J45-Pad7)">
+      <node ref="J45" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J45-Pad8)">
+      <node ref="J45" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(K1-PadNC)">
+      <node ref="K1" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(K2-PadNC)">
+      <node ref="K2" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(K3-PadNC)">
+      <node ref="K3" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(K4-PadNC)">
+      <node ref="K4" pin="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(K5-PadNC)">
+      <node ref="K5" pin="NC" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
